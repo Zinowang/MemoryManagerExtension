@@ -1,0 +1,44 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "MemoryManagerExtension",
+  "Description": "MemoryManagerExtension",
+  "Category": "Other",
+  "CreatedBy": "wangziming",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "CanContainContent": true,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "MemoryManagerFunctionLibrary",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "MemoryModuleControlCenter",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "ObjectLifeTimeListener",
+      "Type": "Runtime",
+      "LoadingPhase": "None"
+    },
+    {
+      "Name": "MemoryCheckByStat",
+      "Type": "Runtime",
+      "LoadingPhase": "None"
+    },
+    {
+      "Name": "IOSOOMDetector",
+      "Type": "Runtime",
+      "LoadingPhase": "None"
+    }
+  ]
+}
