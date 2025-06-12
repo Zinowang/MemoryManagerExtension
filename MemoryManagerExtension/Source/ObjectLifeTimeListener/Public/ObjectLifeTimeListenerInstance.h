@@ -2,6 +2,8 @@
 
 #pragma once
 
+#include <memory>
+
 #include "CoreMinimal.h"
 #include "UObject/Object.h"
 DECLARE_LOG_CATEGORY_EXTERN(LogObjectListener, Log, Log);
